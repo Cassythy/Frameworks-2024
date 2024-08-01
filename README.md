@@ -1,2 +1,2 @@
-# Frameworks-2024
-Aulas de Frameworks
+# frameworks1-2024
+repositório destinado a turma de FRAMEWORKS 1C Turma 20241096205C
