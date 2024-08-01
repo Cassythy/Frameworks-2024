@@ -1,3 +1,9 @@
+html{
+  width: 100%;
+  height: 100%; 
+}
+
 body{
-    background-color: bisque;
+  background: rgb(169,169,254);
+  background: linear-gradient(180deg, rgba(169,169,254,1) 35%, rgba(229,232,196,1) 100%);
 }
