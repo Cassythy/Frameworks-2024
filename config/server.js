@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 //Utilizado para disponibilizar acesso aos arquivos CSS e JS 
 app.use(express.static("./app/public"));
 //configura em app a utilização das variávies passadas por post de form´s 
-app.use( bodyParser.json() );  
+app.use(bodyParser.json() );  
 app.use(bodyParser.urlencoded({
   extended: true
 }));

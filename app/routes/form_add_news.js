@@ -4,7 +4,9 @@ module.exports = function (app) {
     });
 
     app.post("/formulario_inclusao_noticias", function (req, res) {
-        res.send("olá"+req.body);
+        /*res.send("OK o titulo é: "+req.body.titulo); */
+        var cadOK = true;
+        res.render("admim/form_add_news",{cadOK})
     });
     /* app.post('/formulario_inclusao_noticias', function (req, res) {
         var conexao = app.config.dbConnection();
